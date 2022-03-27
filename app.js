@@ -8,7 +8,7 @@ const publicPath = path.resolve(__dirname, "./public")
 
 app.use (express.static(publicPath))
 
-app.listen(3000,()=> console.log ("servidor funcionando"));
+app.listen(process.env.PORT || 3000,()=> console.log ("servidor funcionando"));
 
 
 app.get ("/",(req, res) => {
