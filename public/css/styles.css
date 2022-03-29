@@ -159,8 +159,6 @@ main section article i{
 
 
 
-
-
 .iconos-precios {
     text-align: right;
     color: #39b54a;
@@ -231,7 +229,7 @@ main section article i{
 
 
 
-    .precios {
+.precios {
         display: flex;
         align-items: center;
         
@@ -240,19 +238,19 @@ main section article i{
     }
 
 
-    .columna-footer {
+.columna-footer {
         display: flex;
         flex-direction: column;
         
     }
    
-    .item-footer {
+.item-footer {
         
         border: none;
 
     }
 
-    .legal {
+.legal {
         text-align: left;
         color: #666;
         padding-left: 5px;
@@ -276,7 +274,19 @@ footer {
         }
     }
 
-
+    footer h1 {
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+    
+    .tamaño-icono {
+        font-size: 2.5em;
+        color: #1259c3;
+    }
+    
 
 @media (min-width: 361px){
 
@@ -314,14 +324,14 @@ footer {
 
 
 
-    .articulos:hover .tamaño-descripcion {
+.articulos:hover .tamaño-descripcion {
     visibility: visible;
     
     }
 
 
 
-  .articulos:hover{
+.articulos:hover{
 
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 
@@ -329,12 +339,12 @@ footer {
 
   
 
-    .logo {
+.logo {
         width: 50%;
         max-width: 300px;
 
     }
-   .barra { 
+.barra { 
        width: 38%;
 
 
@@ -344,7 +354,7 @@ footer {
 
     
 
-    @media (min-width: 769px){
+@media (min-width: 769px){
 
         .lupa {
             background-color: white;
@@ -432,18 +442,6 @@ footer {
 
 
 
-footer h1 {
-    font-size: 15px;
-}
-
-footer p {
-    font-size: 15px;
-}
-
-.tamaño-icono {
-    font-size: 2.5em;
-    color: #1259c3;
-}
 
 
 

@@ -266,6 +266,20 @@ footer {
         background-color: white;
     }
 
+    footer h1 {
+        font-size: 15px;
+    }
+    
+    footer p {
+        font-size: 15px;
+    }
+    
+    .tamaño-icono {
+        font-size: 2.5em;
+        color: #1259c3;
+    }
+    
+
 
 @media (min-width: 361px){
 
@@ -380,19 +394,6 @@ footer {
 }
 
 
-
-footer h1 {
-    font-size: 15px;
-}
-
-footer p {
-    font-size: 15px;
-}
-
-.tamaño-icono {
-    font-size: 2.5em;
-    color: #1259c3;
-}
 
 
 
