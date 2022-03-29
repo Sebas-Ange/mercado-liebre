@@ -44,6 +44,9 @@ article {
     background-color: #EAC926;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
     
 }
 
@@ -117,8 +120,8 @@ article {
     padding: 1px;
      
     position: relative;
-    top: 1px;
-    right: 25px;
+    top: 1%;
+    right: 7%;
 
 }
 
