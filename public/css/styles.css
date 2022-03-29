@@ -137,10 +137,10 @@ main section article i{
     width: 16px;
     font-size: 14px;
     padding: 1px;
-   
+   color: gray;
     position: relative;
     top: 1%;
-    right: 7%;
+    right: 14%;
 
 }
 
@@ -330,10 +330,11 @@ footer {
 
     .logo {
         width: 50%;
+        max-width: 300px;
 
     }
    .barra { 
-       width: 50%;
+       width: 38%;
 
 
    }
@@ -344,16 +345,24 @@ footer {
 
     @media (min-width: 769px){
 
+        .lupa {
+            background-color: white;
+            width: 16px;
+            font-size: 14px;
+            padding: 1px;
+           color: gray;
+            position: relative;
+            top: 1%;
+            right: 7%;
+        
+        }
+        
+
        
 
-        .logo {
-
-            width: 33%;
-
-        }
        .barra {
 
-        width: 33%;
+        width: 40%;
     
        }
     
@@ -387,9 +396,9 @@ footer {
         }
         .copy-header {
             max-width: 350px;
-            text-align: right;
+            text-align: center;
             font-size: 17px;
-            margin: 0;
+            margin: auto;
             
         }
     
@@ -447,9 +456,7 @@ footer p {
 
     }
 
-    .logo {
-        width: 300px;
-    }
+   
 
     .main-header-top-bar {
         align-items: center;
@@ -477,6 +484,7 @@ footer p {
     .copy-header {
         max-width: none;
         font-size: 20px;
+        text-align: right;
 
         font-weight: 400;
         
