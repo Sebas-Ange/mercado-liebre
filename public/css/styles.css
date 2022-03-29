@@ -152,6 +152,7 @@ main section article i{
 
 .barra-busqueda {
     width: 75%;
+    padding: 1%;
 }
 
 
@@ -455,6 +456,14 @@ footer p {
         
 
     }
+
+    .barra { 
+        margin: auto;
+        padding-left: 1%;
+ 
+ 
+    }
+ 
 
    
 

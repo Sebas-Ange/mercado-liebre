@@ -133,6 +133,7 @@ article {
 
 .barra-busqueda {
     width: 75%;
+    padding: 1%;
 }
 
 
@@ -403,6 +404,13 @@ footer p {
         margin-bottom: 10px;
         border: solid 1px red;
 
+    }
+
+    .barra { 
+        margin: auto;
+        padding-left: 1%;
+ 
+ 
     }
 
     .logo {
